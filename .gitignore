@@ -1,0 +1,14 @@
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+**/*.pyc
+**/*_cache
+**/*pycache
+__pycache__
+connection.py
+database_setup.sql
+new_file.txt
