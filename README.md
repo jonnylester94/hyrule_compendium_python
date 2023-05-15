@@ -14,7 +14,7 @@ Feel free to clone this repo and trying looking up your favourite creatures, mon
 - 1. clone the repo;
 - 2. from the root directory, create a new virtual environment and activate it (python -m venv venv; source venv/bin/activate);
 - 3. install the necessary project dependencies (pip install -r requirements.txt);
-- 4. run the setup and ingestion file (from main directory, python src/setup_and_ingestion.py) to ingest and clean the data
+- 4. run the setup and ingestion file (from main directory, python src/setup_and_ingestion.py) to ingest and clean the data; and
 - 5. run the main file and follow the prompts (from main directory, python src/main.py)
 
 ## Next steps/things to consider adding:
