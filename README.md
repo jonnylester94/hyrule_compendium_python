@@ -7,18 +7,18 @@ The Hyrule Compendium API (https://gadhagod.github.io/Hyrule-Compendium-API/#/) 
 - asking the user for some input (category and item); and
 - if the given input is valid, returning information about that item.
 
-The SRC directory contains a setup_and_ingestion file and a main script. I have tested these functions with Pytest in a separate test directory, patching the user input for the main look up function.
+The src directory contains a setup_and_ingestion file and a main script. I have tested these functions with Pytest in a separate test directory, patching the user input for the main look up function.
 
 Feel free to clone this repo and trying looking up your favourite creatures, monsters, equipment, materials or treasures from BOTW. To setup and run:
 
-- clone the repo;
-- activate the virtual environment (source venv/bin/activate);
-- install the necessary dependencies (pip install -r requirements.txt);
-- run the setup and ingestion file (from main directory, python src/setup_and_ingestion.py)
-- run the main file and follow the prompts (from main directory, python src/main.py)
+- 1. clone the repo;
+- 2. from the root directory, create a new virtual environment and activate it (python -m venv venv; source venv/bin/activate);
+- 3. install the necessary project dependencies (pip install -r requirements.txt);
+- 4. run the setup and ingestion file (from main directory, python src/setup_and_ingestion.py) to ingest and clean the data
+- 5. run the main file and follow the prompts (from main directory, python src/main.py)
 
 ## Next steps/things to consider adding:
 
-- giving the user the option to store returned items in a database
-- constructing a series of SQL queries to interrogate/restructure new database
+- doing more with the output - give user the option to store returned items in a database?
+- constructing a series of SQL queries to interrogate/restructure new database?
 
