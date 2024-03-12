@@ -16,9 +16,3 @@ Feel free to clone this repo and trying looking up your favourite creatures, mon
 - 3. install the necessary project dependencies (pip install -r requirements.txt);
 - 4. run the setup and ingestion file (from main directory, python src/setup_and_ingestion.py) to ingest and clean the data; and
 - 5. run the main file and follow the prompts (from main directory, python src/main.py)
-
-## Next steps/things to consider adding:
-
-- doing more with the output - give user the option to store returned items in a database?
-- constructing a series of SQL queries to interrogate/restructure new database?
-
